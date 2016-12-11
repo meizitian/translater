@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context="com.meizitian.transer_1204.MainActivity">
+
+    <include layout="@layout/fir_top"/>
+   <Button
+       android:id="@+id/trans_button"
+       android:text="transer"
+       android:textAllCaps="false"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/radioss"
+       android:textColor="@color/white"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/showtext_textview"
+            android:hint="Hello World!"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+         />
+    </LinearLayout>
+
+   <!--> </!-->
+    <!-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center|left"
+        android:paddingTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+           android:text="@string/touse_1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/touse_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/touse_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/touse_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/touse_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+     </LinearLayout>
+     </!-->
+
+</LinearLayout>

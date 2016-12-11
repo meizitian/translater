@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.meizitian.transer_1204">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/mytranse2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+<!-->
+        <activity android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/myAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+</!-->
+        <activity android:name="com.meizitian.transer_1204.fir_activity"
+            android:theme="@style/myAppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.meizitian.transer_1204.hsdui"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+        </activity>
+
+        <service android:name="com.meizitian.transer_1204.my_service">
+        </service>
+        <!-->
+        最开始用来测试数据储存的
+        <activity android:name=".test_sql"
+            android:theme="@style/myAppTheme"
+            android:label="@string/app_name">
+        </activity>
+        </!-->
+    </application>
+
+</manifest>

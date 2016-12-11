@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">transer</string>
+    <string name="touse_1">在其他应用中</string>
+    <string name="touse_2">长按文字分享到这个app中</string>
+    <string name="touse_3">然后点击按钮即可翻译</string>
+    <string name="touse_4">目前仅支持中英文互译</string>
+    <string name="touse_5">双击可以清除数据重新开始</string>
+    <string name="touse_6">谢谢</string>
+    <string name="dialog">在其他应用中 长按文字分享到这个app 也可以翻译 若有异常 可能是APP被清理出内存 请重新点击进入即可 因为我没有在后台强制自我唤醒功能 谢谢 另外...ok 请你选择吧~</string>
+    <string name="share_text">推荐你使用transer 可以在阅读过程中通过分享功能快速翻译而无需打断你的阅读过程</string>
+</resources>

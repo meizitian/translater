@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <!-->
+        最开始用来测试数据储存的
+        还有一个test_sql.class未删除
+        </!-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:hint="hello world"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/test_sql_inputtext" />
+
+    <Button
+        android:background="@drawable/radioss"
+        android:textColor="@color/white"
+        android:text="create"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_sql_button" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radioss"
+        android:textColor="@color/white"
+        android:text="add data"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_sql_button2" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/radioss"
+        android:textColor="@color/white"
+        android:text="read data"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_sql_button3" />
+
+    <TextView
+        android:hint="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test_sql_showtext" />
+</LinearLayout>

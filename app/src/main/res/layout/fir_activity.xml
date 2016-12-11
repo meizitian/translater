@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/fir_top"/>
+
+    <EditText
+        android:id="@+id/input_text"
+        android:hint="input here"
+        android:textColor="@color/grey"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button
+        android:text="transer"
+        android:textAllCaps="false"
+        android:background="@drawable/radioss"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/start_button" />
+
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textIsSelectable="true"
+            android:id="@+id/showtext_textview2"
+            android:textAlignment="center"
+            android:hint="Hello World!"
+            android:textColor="@color/grey"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textIsSelectable="true"
+                android:id="@+id/showtext_aciba_ps1"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:textIsSelectable="true"
+                android:id="@+id/showtext_aciba_v1"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textIsSelectable="true"
+                android:id="@+id/showtext_aciba_ps2"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:textIsSelectable="true"
+                android:id="@+id/showtext_aciba_v2"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textAllCaps="false"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:textIsSelectable="true"
+            android:id="@+id/showtext_aciba_example"
+            android:textAlignment="center"
+            android:textColor="@color/grey"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <!-->
+    <LinearLayout
+        android:paddingTop="90dp"
+        android:gravity="center|left"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/touse_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/touse_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/touse_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/touse_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/touse_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="@string/touse_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    </!-->
+    <!-->
+    最开始用来测试数据储存的 还有一个test_sql.xml文件和一个test_sql.class未删除
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:background="@drawable/radioss"
+            android:text="totest_sql_button"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:id="@+id/totest_sql_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</!-->
+
+</LinearLayout>
